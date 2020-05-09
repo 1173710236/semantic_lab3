@@ -1,0 +1,41 @@
+proc abs;
+begin
+    integer a;
+    integer b;
+    integer c;
+    integer d;
+    integer x;
+    integer y;
+    integer z;
+    integer z;  // error
+
+    arr[3][5] = 2;
+
+    while a<b do
+    begin
+        if c<d then
+        begin
+            x=y+z;
+        end
+        else
+        begin
+            x=y*z;
+        end
+    end
+
+    if c<5 then
+    begin
+        z=x+1;
+    end
+    else
+    begin
+        x=y;
+    end
+
+    call a(1,2+1,a*b);   //error
+    e1 = 7;  // error
+    a[0] = 1;  // error
+
+
+
+end
